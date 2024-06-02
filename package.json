@@ -1,0 +1,25 @@
+{
+  "name": "@foo-dog/utils-types",
+  "version": "0.1.0",
+  "description": "@foo-dog/utils Typescript declarations",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "foo-dog",
+    "typescript"
+  ],
+  "author": "Adam Koch (aakoch)",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.13.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@foo-dog/utils": "file:../utils"
+  },
+  "type": "module",
+  "types": "dist/index.d.ts"
+}
