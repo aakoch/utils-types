@@ -2,17 +2,19 @@
   "name": "@foo-dog/utils-types",
   "version": "0.1.0",
   "description": "@foo-dog/utils Typescript declarations",
+  "homepage": "https://github.com/aakoch/utils-types",
   "main": "src/index.ts",
   "scripts": {
     "build": "tsc",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "postversion": "git push && git push --tags"
   },
   "keywords": [
     "foo-dog",
     "typescript"
   ],
   "author": "Adam Koch (aakoch)",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.13.0",
     "typescript": "^5.4.5"
