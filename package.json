@@ -1,6 +1,6 @@
 {
   "name": "@foo-dog/utils-types",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "@foo-dog/utils Typescript declarations",
   "homepage": "https://github.com/aakoch/utils-types",
   "main": "src/index.ts",
