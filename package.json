@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "description": "@foo-dog/utils Typescript declarations",
   "homepage": "https://github.com/aakoch/utils-types",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf dist",
